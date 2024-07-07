@@ -12,5 +12,5 @@ function navigateToLink(url) {
 // Combined function to save input and navigate to another page
 function saveAndNavigate() {
     saveInput();
-    navigateToLink('firstpage.html');
+    navigateToLink('day1_page.html');
 }
