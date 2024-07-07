@@ -1,0 +1,16 @@
+.envelope{
+    width: 500px;
+    height:auto;
+    margin-left: 440px;
+}
+
+.displayoverenvolope{
+    font-family: cursive;
+    margin-top: 50px;
+    margin-left: 450px;
+}
+
+.daynumber{
+    font-family: cursive;
+    margin-left: 600px;
+}

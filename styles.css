@@ -3,9 +3,6 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-image: url(images/forest1.png);
     background-size: cover; /* Make the background image cover the entire container */
     background-position: center; /* Center the background image */
@@ -13,6 +10,9 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #000; /* Fallback background color */
+    color: #fff;
+    font-family: Arial, sans-serif;
 }
 
 .container {
@@ -35,8 +35,25 @@ button {
     font-size: 16px;
     color: blueviolet;
     background-color: black;
+    border: none;
+    cursor: pointer;
 }
 
-button:hover{
+button:hover {
     background-color: bisque;
+    color: black; /* Change text color on hover for better contrast */
+}
+
+.game-container, .about-container {
+    text-align: center;
+}
+
+/* Override styles for buttons within .game-container and .about-container */
+.game-container button, .about-container button {
+    background-color: #f00;
+    color: #fff;
+}
+
+.game-container button:hover, .about-container button:hover {
+    background-color: #c00;
 }
