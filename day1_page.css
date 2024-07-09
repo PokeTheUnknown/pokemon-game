@@ -1,16 +1,17 @@
-.envelope{
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: cursive;
+}
+
+.daynumber, .displayoverenvelope {
+    margin: 10px 0;
+}
+
+.envelope {
     width: 500px;
-    height:auto;
-    margin-left: 440px;
-}
-
-.displayoverenvolope{
-    font-family: cursive;
-    margin-top: 50px;
-    margin-left: 450px;
-}
-
-.daynumber{
-    font-family: cursive;
-    margin-left: 635px;
+    margin: 20px 0;
 }
