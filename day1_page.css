@@ -5,14 +5,34 @@ body {
     flex-direction: column;
     background-image: url('images/wood.jpg');
     align-items: center;
-    font-family: cursive;
+    
 }
 
-.daynumber, .displayoverenvelope {
+.daynumber {
     margin: 10px 0;
+    color:rgb(255, 255, 255);
+    font-size: 65px; 
+    font-family:sans-serif;
+    
+}
+
+
+h1 {
+    margin: 10px 0;
+    color:#ff3131;
+    font-size: 60px; 
+    font-family: "Creepster", system-ui;
+    text-shadow: 0 0 35px #000000, 0 0 30px #000000;
 }
 
 .envelope {
     width: 500px;
     margin: 20px 0;
+}
+
+input, button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: black;
+    color: aliceblue;
 }

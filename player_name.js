@@ -17,7 +17,7 @@ function saveAndNavigate() {
     
         if (inputValue === "") {
             alert("Please enter your name.");
-            return; // Exit the function if the input is empty
+            return;
         }
     
     var buttonSound = document.getElementById("buttonSound");
