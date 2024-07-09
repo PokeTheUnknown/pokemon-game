@@ -7,13 +7,20 @@
     <link rel="stylesheet" href="home_page.css">
 </head>
 <body>
+  <img src="raindrops.gif" class="gif" alt="raindrops">
     <div class="container">
         <h1>Whispers in the Dark</h1>
         <button onclick="navigateToLink('player_name.html')">Start Game</button>
         <button onclick="navigateToLink('aboutgame.html')">About game</button>
+        
       </div>
+
+        <!-- audio forthe background -->
+    <audio id="backgroundMusic" loop>
+      <source src="theme_song.mp3" type="audio/mpeg">
+  </audio>
     
-      <!-- Audio for button click -->
+      <!-- audio for button click -->
       <audio id="buttonSound">
         <source src="click_sound.mp3" type="audio/mpeg">
       </audio>

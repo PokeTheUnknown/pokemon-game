@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="nameenter.css">
+    <link rel="stylesheet" href="player_name.css">
     <title>Enter Name</title>
 </head>
 <body>
@@ -13,6 +13,11 @@
     <!-- Go back button -->
     <input type="button" value="Go back" onclick="history.back(-1)" />
 
+    <!-- audio for button click -->
+    <audio id="buttonSound">
+        <source src="click_sound.mp3" type="audio/mpeg">
+      </audio>
+      
     <script src="player_name.js"></script>
 </body>
 </html>

@@ -1,10 +1,20 @@
-#userInput{
-    margin-top: 200px;
-    margin-left: 500px;
-    font-size: x-large;
+body, html {
+    margin-top 0;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black; /* Black background */
+    color: white; /* White text */
+    font-family: Arial, sans-serif;
 }
 
-.submit{
-    font-size: x-large;
-    color: azure;
+.container {
+    text-align: center;
+}
+
+input, button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
 }
