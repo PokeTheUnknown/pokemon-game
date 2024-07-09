@@ -1,11 +1,11 @@
 body, html {
-    margin-top 0;
-    height: 50%;
+    margin-top: 0;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black; /* Black background */
-    color: white; /* White text */
+    background-color: black;
+    color: white;
     font-family: Arial, sans-serif;
 }
 

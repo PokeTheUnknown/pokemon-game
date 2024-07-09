@@ -7,17 +7,23 @@
     <title>Enter Name</title>
 </head>
 <body>
-    <input type="text" id="userInput" placeholder="Enter your name....">
+    <input type="text" id="userInput" placeholder="Enter your name" required>
     <button class="submit" onclick="saveAndNavigate()">Submit</button>
     
     <!-- Go back button -->
-    <input type="button" value="Go back" onclick="history.back(-1)" />
+    <input type="button" value="Go back" onclick="playSoundAndGoBack()" />
+
+    <audio id="backgroundMusic2" loop>
+        <source src="name_sus_music.mp3" type="audio/mpeg">
+    </audio>
 
     <!-- audio for button click -->
     <audio id="buttonSound">
         <source src="click_sound.mp3" type="audio/mpeg">
-      </audio>
+    </audio>
       
-    <script src="player_name.js"></script>
+    <script src="player_name.js">
+        
+    </script>
 </body>
 </html>
